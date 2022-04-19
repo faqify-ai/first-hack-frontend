@@ -15,7 +15,7 @@ function PricingHero() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12">
-            <h1 className="h1 font-playfair-display text-slate-100">Find the right plan for your business</h1>
+            <h1 className="h1 font-playfair-display text-slate-100">Find the right plan</h1>
           </div>
 
           {/* Pricing tables */}
@@ -42,8 +42,8 @@ function PricingHero() {
                   <div className="text-lg font-semibold text-slate-800 mb-1">Essential</div>
                   <div className="inline-flex items-baseline mb-3">
                     <span className="h3 font-medium text-slate-500">$</span>
-                    <span className="h2 leading-7 font-playfair-display text-slate-800">{annual? '49': '55'}</span>
-                    <span className="font-medium text-slate-400">/mo</span>
+                    <span className="h2 leading-7 font-playfair-display text-slate-800">{annual? '8': '10'}</span>
+                    <span className="font-medium text-slate-400">/seat/mo</span>
                   </div>
                   <div className="text-slate-500">Better insights for growing businesses that want more customers.</div>
                 </div>
@@ -90,8 +90,8 @@ function PricingHero() {
                   <div className="text-lg font-semibold text-slate-800 mb-1">Premium</div>
                   <div className="inline-flex items-baseline mb-3">
                     <span className="h3 font-medium text-slate-500">$</span>
-                    <span className="h2 leading-7 font-playfair-display text-slate-800">{annual? '79': '85'}</span>
-                    <span className="font-medium text-slate-400">/mo</span>
+                    <span className="h2 leading-7 font-playfair-display text-slate-800">{annual? '16': '20'}</span>
+                    <span className="font-medium text-slate-400">/seat/mo</span>
                   </div>
                   <div className="text-slate-500">Better insights for growing businesses that want more customers.</div>
                 </div>
@@ -141,8 +141,8 @@ function PricingHero() {
                   <div className="text-lg font-semibold text-slate-800 mb-1">Advanced</div>
                   <div className="inline-flex items-baseline mb-3">
                     <span className="h3 font-medium text-slate-500">$</span>
-                    <span className="h2 leading-7 font-playfair-display text-slate-800">{annual? '129': '135'}</span>
-                    <span className="font-medium text-slate-400">/mo</span>
+                    <span className="h2 leading-7 font-playfair-display text-slate-800">{annual? '24': '30'}</span>
+                    <span className="font-medium text-slate-400">/seat/mo</span>
                   </div>
                   <div className="text-slate-500">Better insights for growing businesses that want more customers.</div>
                 </div>

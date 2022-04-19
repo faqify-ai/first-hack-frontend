@@ -24,11 +24,11 @@ const Home = () => {
         {/*  Page sections */}
         <HeroHome />
         <FeaturesBlocks />
-        <FeaturesHome />
+        {/* <FeaturesHome />
         <FeaturesHome02 />
         <FeaturesHome03 />
         <Target />
-        <PricingSection />
+        <PricingSection /> */}
         <Cta />
 
       </main>

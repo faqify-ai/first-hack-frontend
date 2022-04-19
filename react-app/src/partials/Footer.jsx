@@ -19,7 +19,7 @@ function Footer() {
                 </svg>
               </Link>
             </div>
-            <div className="text-lg font-bold text-slate-800">The smarter way to start your next idea.</div>
+            <div className="text-lg font-bold text-slate-800">The smarter way for companies to answer questions.</div>
           </div>
 
           {/* 2nd block */}
@@ -27,19 +27,19 @@ function Footer() {
             <h6 className="text-sm text-slate-800 font-semibold mb-2">How it works</h6>
             <ul className="text-sm font-medium space-y-2">
               <li>
-                <Link to="#" className="text-slate-500 hover:text-blue-600 transition duration-150 ease-in-out">Overview</Link>
+                <Link to="/" className="text-slate-500 hover:text-blue-600 transition duration-150 ease-in-out">Overview</Link>
               </li>
               <li>
-                <Link to="#" className="text-slate-500 hover:text-blue-600 transition duration-150 ease-in-out">Pricing</Link>
+                <Link to="/pricing" className="text-slate-500 hover:text-blue-600 transition duration-150 ease-in-out">Pricing</Link>
               </li>
-              <li>
+              {/* <li>
                 <Link to="#" className="text-slate-500 hover:text-blue-600 transition duration-150 ease-in-out">Service Areas</Link>
-              </li>                         
+              </li>                          */}
             </ul>
           </div>
 
           {/* 3rd block */}
-          <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
+          {/* <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
             <h6 className="text-sm text-slate-800 font-semibold mb-2">Resources</h6>
             <ul className="text-sm font-medium space-y-2">
               <li>
@@ -52,10 +52,10 @@ function Footer() {
                 <Link to="#" className="text-slate-500 hover:text-blue-600 transition duration-150 ease-in-out">Contact Us</Link>
               </li>
             </ul>
-          </div>
+          </div> */}
 
           {/* 4th block */}
-          <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
+          {/* <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
             <h6 className="text-sm text-slate-800 font-semibold mb-2">Products</h6>
             <ul className="text-sm font-medium space-y-2">
               <li>
@@ -71,18 +71,18 @@ function Footer() {
                 <Link to="#" className="text-slate-500 hover:text-blue-600 transition duration-150 ease-in-out">First Capital</Link>
               </li>
             </ul>
-          </div>
+          </div> */}
 
           {/* 5th block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
             <h6 className="text-sm text-slate-800 font-semibold mb-2">Company</h6>
             <ul className="text-sm font-medium space-y-2">
-              <li>
+              {/* <li>
                 <Link to="#" className="text-slate-500 hover:text-blue-600 transition duration-150 ease-in-out">About Us</Link>
               </li>
               <li>
                 <Link to="#" className="text-slate-500 hover:text-blue-600 transition duration-150 ease-in-out">Careers</Link>
-              </li>
+              </li> */}
               <li>
                 <Link to="#" className="text-slate-500 hover:text-blue-600 transition duration-150 ease-in-out">Terms of Use</Link>
               </li>

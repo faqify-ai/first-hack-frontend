@@ -22,10 +22,10 @@ function Pricing() {
         {/*  Page sections */}
         <PricingHero />
         <PricingCta />
-        <PricingFeatures />
-        <FeaturesTable />
+        {/* <PricingFeatures />
+        <FeaturesTable /> */}
         <Faqs />
-        <CtaDark />
+        {/* <CtaDark /> */}
 
       </main>
 

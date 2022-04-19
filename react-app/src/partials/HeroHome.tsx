@@ -25,13 +25,10 @@ const HeroHome = (): JSX.Element => {
                 <h1 className="h1 font-playfair-display text-slate-100 mb-4">Your team's AI omniscient.</h1>
                 <p className="text-xl text-slate-400 mb-8">No question is a dumb question. But having to answer the same question 100+ times is dumb. Let's help your team fix that.</p>
                 <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center md:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
-                  <div>
+                  <div className="w-11/12">
                     <Link className="btn text-white bg-blue-600 hover:bg-blue-700 w-full group" to="/request-demo">
-                      Request Demo <span className="tracking-normal text-blue-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
+                      Join waitlist <span className="tracking-normal text-blue-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
                     </Link>
-                  </div>
-                  <div>
-                    <Link className="btn text-white bg-slate-700 hover:bg-slate-800 w-full" to="#0">Explore Product</Link>
                   </div>
                 </div>
               </div>

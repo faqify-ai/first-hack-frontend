@@ -66,9 +66,9 @@ const Header = ({
               <li>
                 <Link to="/pricing" className="font-medium text-slate-800 hover:text-blue-600 dark:text-slate-400 dark:hover:text-blue-600 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">Pricing</Link>
               </li>
-              <li>
+              {/* <li>
                 <Link to="/about" className="font-medium text-slate-800 hover:text-blue-600 dark:text-slate-400 dark:hover:text-blue-600 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">About</Link>
-              </li>
+              </li> */}
               {/* <li>
                 <Link to="/blog" className="font-medium text-slate-800 hover:text-blue-600 dark:text-slate-400 dark:hover:text-blue-600 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">Blog</Link>
               </li>      
@@ -94,7 +94,7 @@ const Header = ({
               </li>
               <li>
                 <Link to="/request-demo" className="font-medium text-blue-600 dark:text-slate-300 dark:hover:text-white px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out group">
-                  Request Demo <span className="tracking-normal text-blue-600 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>             
+                  Join the waitlist <span className="tracking-normal text-blue-600 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>             
                 </Link>
               </li>
             </ul>
@@ -138,9 +138,9 @@ const Header = ({
                   <li>
                     <Link to="/pricing" className="flex font-medium text-slate-800 hover:text-blue-600 py-2">Pricing</Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link to="/about" className="flex font-medium text-slate-800 hover:text-blue-600 py-2">About</Link>
-                  </li>
+                  </li> */}
                   {/* <li>
                     <Link to="/blog" className="flex font-medium text-slate-800 hover:text-blue-600 py-2">Blog</Link>
                   </li>  
@@ -163,7 +163,7 @@ const Header = ({
                   </li>
                   <li>
                     <Link to="/request-demo" className="flex font-medium text-blue-600 py-2 group">
-                      Request Demo <span className="tracking-normal text-blue-600 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
+                      Join the waitlist <span className="tracking-normal text-blue-600 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
                     </Link>
                   </li>
                 </ul>
