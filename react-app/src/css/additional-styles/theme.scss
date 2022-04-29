@@ -1,3 +1,16 @@
+:focus,
+button:focus,
+.btn:focus,
+.btn-sm:focus,
+.form-input:focus,
+.form-textarea:focus,
+.form-multiselect:focus,
+.form-select:focus,
+.form-checkbox:focus,
+.form-radio:focus {
+    @apply ring-0;;
+}
+
 .form-input,
 .form-textarea,
 .form-multiselect,
@@ -6,7 +19,7 @@
 .form-radio {
 
     &:focus {
-        @apply ring-0;
+        box-shadow: none !important;
     }
 }
 

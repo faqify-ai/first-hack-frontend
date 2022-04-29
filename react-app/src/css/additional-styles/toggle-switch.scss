@@ -1,13 +1,19 @@
 // Switch element
 .form-switch {
-
-    @apply relative select-none w-12 my-2;
+    @apply relative select-none;
+    width: 44px;
 
     label {
-        @apply block overflow-hidden cursor-pointer rounded-full h-4;
+        @apply block overflow-hidden cursor-pointer h-6 rounded-full;
 
         > span:first-child {
-            @apply absolute block rounded-full w-8 h-8 right-1/2 -left-2 -top-2 transition-all duration-150 ease-out;
+            @apply absolute block rounded-full;
+            width: 20px;
+            height: 20px;
+            top: 2px;
+            left: 2px;
+            right: 50%;
+            transition: all .15s ease-out;
         }
     }
 
@@ -16,11 +22,23 @@
         &:checked {
 
             + label {
+                @apply bg-indigo-500;
 
                 > span:first-child {
-                    @apply bg-blue-200 border-blue-600 left-6;
+                    left: 22px;
                 }
             }
+        }
+
+        &:disabled {
+
+            + label {
+                @apply cursor-not-allowed bg-gray-100 border border-gray-200;
+
+                > span:first-child {
+                    @apply bg-gray-400;
+                }
+            }            
         }
     }
 }

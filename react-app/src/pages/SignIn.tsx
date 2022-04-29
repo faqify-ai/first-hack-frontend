@@ -1,10 +1,24 @@
-import React from 'react';
+import React, { useState, useCallback } from 'react';
 import { Link } from 'react-router-dom';
+
+import { auth } from '../firebase/config';
+import { signInWithEmailAndPassword } from 'firebase/auth';
 
 import PageBG from '../images/sign-in-bg.jpg';
 import CustomerAvatar from '../images/customer-avatar-05.jpg';
 
-const SignIn = (): JSX.Element => {
+const SignIn = () => {
+
+  const handleSubmit = useCallback(async e => {
+    e.preventDefault()
+    const { email, password } = e.target.elements
+    try {
+      await signInWithEmailAndPassword(auth, email.value, password.value)
+    } catch (e) {
+      alert(e.message)
+    }
+  }, [])
+
   return (
     <main className="flex">
 
@@ -56,7 +70,7 @@ const SignIn = (): JSX.Element => {
               </div>
 
               {/* Form */}
-              <form>
+              <form onSubmit={handleSubmit}>
                 <div className="space-y-4">
                   <div>
                     <label className="block text-sm font-medium mb-1" htmlFor="email">Email <span className="text-rose-500">*</span></label>
@@ -68,7 +82,7 @@ const SignIn = (): JSX.Element => {
                   </div>
                 </div>
                 <div className="mt-6">
-                  <button className="btn-sm w-full text-sm text-white bg-blue-600 hover:bg-blue-700 group">
+                  <button type="submit" className="btn-sm w-full text-sm text-white bg-blue-600 hover:bg-blue-700 group">
                     Sign In <span className="tracking-normal text-blue-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
                   </button>
                 </div>
